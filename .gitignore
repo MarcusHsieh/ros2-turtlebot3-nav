@@ -1,0 +1,32 @@
+# Build artifacts
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+.eggs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ROS2 colcon
+.colcon_build_info
+COLCON_IGNORE
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

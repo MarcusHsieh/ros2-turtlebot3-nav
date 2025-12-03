@@ -1,0 +1,23 @@
+path_follower:
+  ros__parameters:
+    # Pure pursuit lookahead distance (meters)
+    # Larger values = smoother but less accurate path following
+    lookahead_distance: 0.3
+
+    # Maximum linear velocity (m/s)
+    # TurtleBot3 Burger max: 0.22 m/s
+    linear_speed: 0.15
+
+    # Maximum angular velocity (rad/s)
+    # TurtleBot3 Burger max: 2.84 rad/s
+    angular_speed: 1.5
+
+    # Distance tolerance for goal reached (meters)
+    goal_tolerance: 0.1
+
+    # Angle tolerance for turning in place (radians)
+    # If angle error exceeds this, robot turns in place
+    angle_tolerance: 0.3
+
+    # Use simulation time
+    use_sim_time: true

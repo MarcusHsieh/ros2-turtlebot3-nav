@@ -1,0 +1,17 @@
+path_planner:
+  ros__parameters:
+    # Algorithm selection: astar, dijkstra, or greedy
+    algorithm: "astar"
+
+    # Heuristic function: euclidean or manhattan
+    heuristic: "euclidean"
+
+    # Path to map YAML file (empty = wait for /map topic)
+    map_yaml: ""
+
+    # Robot radius for obstacle inflation (meters)
+    # TurtleBot3 Burger radius is approximately 0.105m
+    inflate_radius: 0.12
+
+    # Use simulation time
+    use_sim_time: true
